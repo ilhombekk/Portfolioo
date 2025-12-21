@@ -1,0 +1,62 @@
+/* 1. HTML5 elementlarni blok qilish */
+article, aside, footer, header, nav, section {
+    display: block;
+}
+
+/* 2. Body uchun default marginni olib tashlash */
+body {
+    margin: 0;
+    line-height: 1.5;
+}
+
+/* 3. Listlarda default paddingni olib tashlash */
+ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
+/* 4. Rasmning max-width muammosini hal qilish */
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* 5. Input va buttonni baravar qilish */
+button,
+input,
+textarea,
+select {
+    font: inherit;
+    margin: 0;
+}
+
+/* 6. Buttonlarning default borderlarini o‘chirish */
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* 7. Linklar uchun normal ko‘rinish */
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* 8. Table reset */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* 9. Checkbox va radio doim mos ko‘rinsin */
+input[type="checkbox"],
+input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+/* 10. Box-sizing universal qilish (eng muhim!) */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
